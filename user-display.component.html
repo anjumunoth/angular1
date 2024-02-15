@@ -1,0 +1,6 @@
+<p>user-display works!</p>
+<ul >
+    <li *ngFor="let user of userObs$|async" >
+        {{user |json}}
+    </li>
+</ul>
